@@ -1024,7 +1024,7 @@ def test_n_smallest_graphs():
                 continue
         return True
 
-    dataset_path:str = r'/home/ronl/Q_Opt/max_cut/datasets/mqlib_graphs'
+    dataset_path:str = r'/home/username/Q_Opt/max_cut/datasets/mqlib_graphs'
     read_amount:int = 1000
     n_smallest_g = GraphShelf.read_n_smallest_graphs(dataset_root=dataset_path, n=read_amount, by_nodes=True)
 
