@@ -11,7 +11,7 @@
 # The script writes a temporary csv file with all metrics of the given graph-instance.
 # returns the path of the output file (to stdout) for python to utilize and for the subsequent script for permanent deletion. 
 # This scrip should be used only from within python run in order to take advantage of MQLib metrics calculations over an  nx.Graph/Graph.txt external instance
-# ./bin/MQLib -m -mh -fM /home/ronl/Q_Opt/max_cut/datasets/gset/instance/G23/G23.txt> test.csv
+
 
 set -euo pipefail
 
